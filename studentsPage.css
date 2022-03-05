@@ -1,1 +1,18 @@
-<!TESTCOMMENT>
+body {
+background: #464646;
+}
+h1{
+  color: ##12017CFF;  
+}
+.topRectangleBar {
+  position: relative;
+  height: 15vh; /*Height of top bar relative to screen height*/
+  width: 100vw;
+  background: #C4C4C4;
+}
+.topButtons{
+ position: relative;
+  height: 15vh; /*Height of top selective squaresrelative to screen height*/
+  width: 100vw;
+  background: #C4C4C4; 
+}
