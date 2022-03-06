@@ -4,5 +4,10 @@ function JAVASCRIPTTEST(){
 }
 
 function addNewStudent(){
+
+}
+
+function deleteStudent(){
     
 }
+//Need to make constructors and deconstructors to track how many
