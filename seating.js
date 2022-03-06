@@ -8,6 +8,9 @@ window.addEventListener('click', function (e) {
   // console.log("x: " + String(test.x) + "\ty: " + String(test.y));
 });
 
+var selectedSeat = '#c2d420';
+var emptySeat = '#888888';
+var filledSeat = '#47b51b';
 var sliderX = document.getElementById("sliderX");
 var sliderY = document.getElementById("sliderY");
 var outputX = sliderX.value;
@@ -40,9 +43,11 @@ function tableCreate() {
       btn = document.createElement('button');
       btn.style.width = "5vw";
       btn.style.height = "7vh";
-      btn.style.backgroundColor = "green";
+      btn.style.borderRadius = "10px";
+      btn.style.backgroundColor = emptySeat;
       btn.setAttribute("value", String(outputY*i + j +1));
       btn.setAttribute("id", "btn" + String(outputY*i + j +1));
+      btn.setAttribute("onClick", "selectSeat("+ String(outputY*i + j +1) +")");
       btn.appendChild(document.createTextNode(outputY*i + j +1));
       td.appendChild(btn);
       // td.appendChild(document.createTextNode(outputY*i + j +1));
