@@ -5,7 +5,7 @@ let test = {
 window.addEventListener('click', function (e) {
   test.x = event.x;
   test.y = event.y;
-  console.log("x: " + String(test.x) + "\ty: " + String(test.y));
+  // console.log("x: " + String(test.x) + "\ty: " + String(test.y));
 });
 
 var sliderX = document.getElementById("sliderX");
@@ -24,7 +24,10 @@ sliderY.oninput = function() {
 function tableCreate() {
   newTable = document.getElementById("seatingChart");
   tbl = document.createElement('table');
-  tbl.style.margin = 'auto';
+  tbl.style.marginLeft = '0vw';
+  tbl.style.marginRight = '40vw';
+  tbl.style.topMargin = '50px';
+  tbl.style.marginBottom = '50px';
   tbl.style.id = "seatingTable";
   // tbl.style.border = '1px solid white';
   
@@ -35,7 +38,8 @@ function tableCreate() {
       td.style.border = '2px solid #ffffffff;';
       td.style.width = '100px';
       td.style.height = '100px';
-      //td.appendChild(document.createTextNode(``));
+      td.appendChild(document.createTextNode(outputY*i + j +1));
+      // console.log("i: " + String(i) + "\tiTotal: " + String(outputX) + "\tj: " + String(j) + "\tjTotal: " + String(outputY));
     }
   }
   newTable.innerHTML = '';

@@ -72,26 +72,37 @@ td{
     height: 100px;
 }
 
+.slideLabel{
+    margin-left: 30vw;
+    margin-bottom: -1.25vw;
+    margin-top: 1px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+
+}
+
 .slidecontainer {
-    width: 99vw; /* Width of the outside container */
+    width: 0vw; /* Width of the outside container */
+    z-index: -1;
 }
   
   /* The slider itself */
 .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
-    width: 99.5vw; /* Full-width */
+    width: 60vw; /* Full-width */
     height: 25px; /* Specified height */
     background: #d3d3d3; /* Grey background */
     outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    opacity: 0.2; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
 }
   
   /* Mouse-over effects */
 .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 0.5; /* Fully shown on mouse-over */
 }
   
   /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
