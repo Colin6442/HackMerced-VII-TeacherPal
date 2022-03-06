@@ -43,8 +43,10 @@ h1{
     display: inline-block;
     font-size: 16px;
     float:left;
-    margin: 2px 8px 50px;
+    margin: 2px 8px 20px;
     cursor: pointer;
+    width: 250px;
+    height: 110px;
 }
 .addStudentDefaultButton { /*Default button that I got from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
   border: none;
