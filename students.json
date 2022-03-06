@@ -1,0 +1,108 @@
+{
+    "studentCount" : 0,
+    "studentList": [   {
+        "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 1,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    } ,
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 2,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 3,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 4,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 5,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 6,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 7,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 8,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 9,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    },
+    {
+    "firstName": "DEFAULT_NAME_FIRST_ONE",
+        "lastName": "DEFAULT_NAME_FIRST_TWO",
+        "studentID" : 10,
+        "age": 666,
+        "behaviourColor": 666,
+        "positiveRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "negativeRelationships": ["DEFAULTSTUDENT1", "DEFAULTSTUDENT2","DEFAULTSTUDENT3"],
+        "seatNumber": 666
+    }
+    
+
+
+]
+
+}
