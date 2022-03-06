@@ -1,8 +1,8 @@
 body {
-background-color: #fbff2f;
+background-color: #242424;
 }
 h1{
-  color: #12017CFF;  
+  
 }
 .topRectangleBar {
   position: absolute;
@@ -19,13 +19,13 @@ h1{
   top: 17vh;
   left: 0.8vw;
   width: 10vw;
-  height: 10vh;
+  height: 10vh; 
 }
 
 .studentBackgroundBar{
   background-color: #3d3d3d71;
   position: relative;
-  top: 17vh;
+  top: 5vh;
   left: 12vw;
   width: 87vw;
   height: 81vh;
@@ -33,6 +33,7 @@ h1{
 
 .studentDefaultButton { /*Default button that I got from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
   border: none;
+  white-space: normal;
   position: relative;
   top: 20px;
     color: #12017CFF;
@@ -46,6 +47,7 @@ h1{
 }
 .addStudentDefaultButton { /*Default button that I got from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
   border: none;
+  
   position: relative;
   top: 20px;
     color: #12017CFF;
