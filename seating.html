@@ -21,17 +21,28 @@
         <a href="info.html" class="navButton">Info</a>
       </div>
     </div>
-    <div class="slidecontainer"> <!-- Sliders -->
-      <p class="slideLabel">Height</p>
-      <input type="range" min="1" max="20" value="6" class="slider" id="sliderX">
-      <p class="slideLabel">Width</p>
-      <input type="range" min="1" max="11" value="11" class="slider" id="sliderY">
-    </div>
-    <div id="seatingChart" class="seatingChart"> <!-- Seating Table / Chart -->
-      <table id="seatingTable"></table>
+    <div class="leftSide">
+      <div class="slidecontainer"> <!-- Sliders -->
+        <p class="slideLabel">Height</p>
+        <input type="range" min="1" max="9" value="9" class="slider" id="sliderX">
+        <p class="slideLabel">Width</p>
+        <input type="range" min="1" max="11" value="11" class="slider" id="sliderY">
+      </div>
+      <div id="seatingChart" class="seatingChart"> <!-- Seating Table / Chart -->
+        <table id="seatingTable"></table>
+      </div>
     </div>
     <div class="rightSide"> <!-- Right Side -->
-      
+      <div class="topBtns">
+        <button onclick="" class="topBtn">Set Grid Size</button>
+      </div>
+      <h1>Current Seat: ___</h1>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+      <br><br>
+      <button onclick="" class="">Set Student</button>
     </div>
   </body>
 </html>
