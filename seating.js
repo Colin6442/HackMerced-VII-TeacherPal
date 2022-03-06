@@ -40,6 +40,7 @@ function tableCreate() {
       btn = document.createElement('button');
       btn.style.width = "5vw";
       btn.style.height = "7vh";
+      btn.style.backgroundColor = "green";
       btn.setAttribute("value", String(outputY*i + j +1));
       btn.setAttribute("id", "btn" + String(outputY*i + j +1));
       btn.appendChild(document.createTextNode(outputY*i + j +1));

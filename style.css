@@ -86,7 +86,11 @@ td{
     color: rgb(255, 255, 255);
     z-index: 1;
 }
-
+.rightSide{
+    margin-top: -57vh;
+    margin-right: 1vw;
+    margin-left: 62vw;
+}
 .slidecontainer {
     width: 0vw; /* Width of the outside container */
     z-index: -1;
