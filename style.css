@@ -25,10 +25,8 @@ body {
 .navigationBar{
     margin-top: 0;
     background-color: #3d3d3d71;
-    position: absolute;
     width: 100vw;
     height: 15vh;
-    position: fixed;
 }
 
 .navButton{
@@ -63,4 +61,18 @@ body {
 .headerAll{
     width: 100vw;
     height: 5vh;
+}
+
+.seatingTable{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 75vw;
+    height: 50vh; */
+}
+
+td{
+    border: 2px solid #ffffffff;
+    width: 100px;
+    height: 100px;
 }
