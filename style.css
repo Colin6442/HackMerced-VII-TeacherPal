@@ -1,7 +1,7 @@
 :root {
-    --backgroundcolor: #242424;
+    --backgroundcolor: #eefbf4;
     --bordercolor: rgba(39, 39, 39, 0.39);
-    --color: rgba(255, 255, 255, 0.76);
+    --color: rgb(248, 248, 248);
 }
 
 body {
@@ -14,6 +14,13 @@ body {
     /* height: 100vh;
     width: 100vw; */
 }
+
+.logo {
+    width: 500px;
+    height: auto;
+    margin-left: 4vw;
+}
+
 .header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -24,7 +31,7 @@ body {
 }
 .navigationBar{
     margin-top: 0;
-    background-color: #3d3d3d71;
+    background-color: #0074519a;
     width: 100vw;
     height: 15vh;
 }
@@ -38,8 +45,8 @@ body {
     font-size: 2vw;
     color: var(--color);
     border-radius: 25px;
-    border: 2px solid #2020209d;
-    background-color: #000dc7b9;
+    border: 2px solid #0000009d;
+    background-color: #53535371;
     margin-top: 2.5vh;
     margin-left: .5vw;
     margin-bottom: .5vh;
@@ -50,8 +57,8 @@ body {
 }
 
 .navButton:hover {
-    background-color: #fffb00;
-    color: #000000;
+    background-color: #ff0000b2;
+    color: #ffffff;
 }
 .navigationAll{
     width: 100vw;
@@ -72,7 +79,7 @@ body {
 }
 
 td{
-    border: 2px solid #ffffffff;
+    border: 2px solid rgb(255, 255, 255);
     width: 100px;
     height: 100px;
 }
