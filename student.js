@@ -1,0 +1,4 @@
+function JAVASCRIPTTEST(){
+    console.log("");
+
+}
