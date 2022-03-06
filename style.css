@@ -40,13 +40,12 @@ body {
     width: 17vw;
     height: 5vh;
 }
-
 .navButton:hover {
     background-color: #fffb00;
     color: #000000;
 }
-
 .navigationAll{
     width: 100vw;
     height: 15vh;
 }
+
