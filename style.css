@@ -14,9 +14,10 @@ body {
 }
 
 .logo {
-    width: 400px;
-    height: auto;
+    width: 20vw;
+    height: 20vh;
     margin-right: 80vw;
+    margin-top: -4vh;
 }
 
 .header{
@@ -29,9 +30,10 @@ body {
 }
 .navigationBar{
     margin-top: 0;
-    background-color: #0074519a;
-    width: 100vw;
-    height: 15vh;
+    margin-left: 22vw;
+    padding-top: 2vh;
+    width: 78vw;
+    /* height: 10vh; */
 }
 
 .navButton{
@@ -59,8 +61,10 @@ body {
     color: #ffffff;
 }
 .navigationAll{
+    background-color: #0074519a;
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
+    margin-top: -16vh;
 }
 
 .headerAll{
