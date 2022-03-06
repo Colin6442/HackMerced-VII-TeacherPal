@@ -26,8 +26,7 @@ function tableCreate() {
   tbl = document.createElement('table');
   tbl.style.marginLeft = '0vw';
   tbl.style.marginRight = '40vw';
-  tbl.style.topMargin = '50px';
-  tbl.style.marginBottom = '50px';
+  tbl.style.height = '0vh'
   tbl.style.id = "seatingTable";
   // tbl.style.border = '1px solid white';
   
@@ -35,10 +34,18 @@ function tableCreate() {
     const tr = tbl.insertRow();
     for (let j = 0; j < outputY; j++) {
       const td = tr.insertCell();
-      td.style.border = '2px solid #ffffffff;';
-      td.style.width = '100px';
-      td.style.height = '100px';
-      td.appendChild(document.createTextNode(outputY*i + j +1));
+      td.style.border = 'none';
+      td.style.width = '5vw';
+      td.style.height = '7vh';
+      btn = document.createElement('button');
+      btn.style.width = "5vw";
+      btn.style.height = "7vh";
+      btn.style.backgroundColor = "green";
+      btn.setAttribute("value", String(outputY*i + j +1));
+      btn.setAttribute("id", "btn" + String(outputY*i + j +1));
+      btn.appendChild(document.createTextNode(outputY*i + j +1));
+      td.appendChild(btn);
+      // td.appendChild(document.createTextNode(outputY*i + j +1));
       // console.log("i: " + String(i) + "\tiTotal: " + String(outputX) + "\tj: " + String(j) + "\tjTotal: " + String(outputY));
     }
   }

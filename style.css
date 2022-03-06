@@ -71,7 +71,13 @@ td{
     width: 100px;
     height: 100px;
 }
-
+.seatingChart{
+    height: 50vh;
+}
+.seatingBtn{
+    width: 90px;
+    height: 90px;
+}
 .slideLabel{
     margin-left: 30vw;
     margin-bottom: -1.25vw;
@@ -79,9 +85,12 @@ td{
     font-size: 20px;
     color: rgb(255, 255, 255);
     z-index: 1;
-
 }
-
+.rightSide{
+    margin-top: -57vh;
+    margin-right: 1vw;
+    margin-left: 62vw;
+}
 .slidecontainer {
     width: 0vw; /* Width of the outside container */
     z-index: -1;
