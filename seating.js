@@ -23,7 +23,6 @@ sliderY.oninput = function() {
 
 function tableCreate() {
   newTable = document.getElementById("seatingChart");
-  oldTable = document.getElementById("seatingTable");
   tbl = document.createElement('table');
   tbl.style.margin = 'auto';
   tbl.style.id = "seatingTable";
@@ -39,12 +38,7 @@ function tableCreate() {
       //td.appendChild(document.createTextNode(``));
     }
   }
-  try{
-    let node = document.getElementById("seatingTable");
-      node.parentNode.removeChild(node);
-  }catch{
-    console.log("nothing there");
-  }
+  newTable.innerHTML = '';
   newTable.appendChild(tbl);
 }
 
